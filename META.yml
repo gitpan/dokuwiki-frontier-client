@@ -1,0 +1,21 @@
+---
+abstract: 'Dokuwiki::Frontier::Client - A Frontier::Client for dokuwiki (https://www.dokuwiki.org)'
+author:
+  - 'Marc Chantreux <khatar@phear.org>'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.012, CPAN::Meta::Converter version 2.132830'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: dokuwiki-frontier-client
+requires:
+  Frontier::Client: 0
+  Moo: 0
+  strict: 0
+resources:
+  repository: git://github.com/eiro/p5-{{$dist->name}}.git
+version: 0.0

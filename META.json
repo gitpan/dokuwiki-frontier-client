@@ -1,0 +1,40 @@
+{
+   "abstract" : "Dokuwiki::Frontier::Client - A Frontier::Client for dokuwiki (https://www.dokuwiki.org)",
+   "author" : [
+      "Marc Chantreux <khatar@phear.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.012, CPAN::Meta::Converter version 2.132830",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "dokuwiki-frontier-client",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Frontier::Client" : "0",
+            "Moo" : "0",
+            "strict" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/eiro/p5-{{$dist->name}}.git",
+         "web" : "http://github.com/eiro/p5-{{ $dist->name }}"
+      }
+   },
+   "version" : "0.0"
+}
+
