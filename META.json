@@ -35,6 +35,6 @@
          "web" : "http://github.com/eiro/p5-{{ $dist->name }}"
       }
    },
-   "version" : "0.0"
+   "version" : "0.1"
 }
 
